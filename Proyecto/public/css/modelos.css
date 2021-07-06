@@ -1,0 +1,36 @@
+body{
+	background-color: rgb(10, 9, 5);}
+header{
+	margin: 0 30%;
+	padding: 5px;
+	border-radius: 4px;
+}
+#img{
+  border-radius: 50%;
+}
+.color{
+	background-color: #eaeaea;
+	border-radius: 4px;
+}
+#tabla {
+  font-family: "Trebuchet MS", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabla td, #tabla th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla tr:hover {background-color: #ddd;}
+
+#tabla th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7B15F5;
+  color: white;
+}
